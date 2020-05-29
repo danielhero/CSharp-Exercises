@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\address-book\\address-book.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\AddressBook\\address-book.csproj",
       "projectName": "address-book",
-      "projectPath": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\address-book\\address-book.csproj",
+      "projectPath": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\AddressBook\\address-book.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\address-book\\obj\\",
+      "outputPath": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\AddressBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",

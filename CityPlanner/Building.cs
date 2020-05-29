@@ -1,13 +1,13 @@
 using System;
 
-namespace Planner
+namespace CityPlanner
 {
     public class Building
     {
 
         private string _designer = "Daniel Hero";
 
-        private DateTime _dateconstructed;
+        private DateTime _dateConstructed;
 
         private string _address;
 
@@ -32,7 +32,7 @@ namespace Planner
         }
         public void Construct()
         {
-            _dateconstructed = DateTime.Now;
+            _dateConstructed = DateTime.Now;
         }
         public void Purchase(string owner)
         {
@@ -43,9 +43,10 @@ namespace Planner
         {
             Console.WriteLine($"{_address}");
             Console.WriteLine("----------------");
-            Console.WriteLine($"Constructed on {_dateconstructed}");
+            Console.WriteLine($"Constructed on {_dateConstructed}");
             Console.WriteLine($"Designed by {_designer}");
             Console.WriteLine($"Owned by {_owner}");
+            Console.WriteLine($"{Volume} cubic meters of space");
         }
     }
 

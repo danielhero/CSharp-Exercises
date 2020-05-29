@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\planner\\Planner.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\CityPlanner\\Planner.csproj",
       "projectName": "Planner",
-      "projectPath": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\planner\\Planner.csproj",
+      "projectPath": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\CityPlanner\\Planner.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\planner\\obj\\",
+      "outputPath": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\CityPlanner\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",

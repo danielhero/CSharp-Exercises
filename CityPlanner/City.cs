@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Planner
+namespace CityPlanner
 {
     public class City
     {
@@ -12,10 +12,10 @@ namespace Planner
         private int _established;
 
         private List<Building> _buildingList = new List<Building>();
-        public void AddBuilding(Building newBuilding);
-        {
-            _buildingList.Add(newBuilding)
-        }
+        // public void AddBuilding(Building newBuilding);
+        // {
+        //     _buildingList.Add(newBuilding building)
+        // }
 
     }
 

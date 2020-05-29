@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MBsTxiizysb7Iek2pnbqcRUkiQMNdUPQa7pV+zGSIQP1acA0LBzgNYWeEiPd5tzD9yr8tsWkvo1QBQPhIEbybw==",
+  "dgSpecHash": "lzW2HQCDGVzuUY78Hb9nYkWF4sS8Aq+YVDT51wJTTKLj6J7v0U48BSnQfCfo2LZMKjABD+6By6UPfAt1eltD5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\address-book\\address-book.csproj",
+  "projectFilePath": "C:\\Users\\Daniel\\workspace\\csharp\\exercises\\AddressBook\\address-book.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

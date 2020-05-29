@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Planner
+namespace CityPlanner
 {
     class Program
     {
@@ -14,9 +14,7 @@ namespace Planner
             };
             Shea.Construct();
             Shea.Purchase("Fred Wilpon");
-
             Shea.BuildingInfo();
-            Console.WriteLine($"{Shea.Volume} cubic meters of space");
             Console.WriteLine();
 
             Building QueensTower = new Building("321 Queens Boulevard")
@@ -27,9 +25,7 @@ namespace Planner
             };
             QueensTower.Construct();
             QueensTower.Purchase("Melinda Katz");
-
             QueensTower.BuildingInfo();
-            Console.WriteLine($"{QueensTower.Volume} cubic meters of space");
             Console.WriteLine();
 
             Building HillsHeights = new Building("32-61 Fleet Avenue")
@@ -40,9 +36,7 @@ namespace Planner
             };
             HillsHeights.Construct();
             HillsHeights.Purchase("Jessica Hoopes");
-
             HillsHeights.BuildingInfo();
-            Console.WriteLine($"{HillsHeights.Volume} cubic meters of space");
             Console.WriteLine();
         }
 
