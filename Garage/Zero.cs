@@ -14,9 +14,9 @@ namespace Garage
         {
             Console.WriteLine($"The {MainColor} Zero zips by you. MMmmmmmmmm!");
         }
-        public override void Turn()
+        public override void Turn(string direction)
         {
-            Console.WriteLine($"The vehicle leans to turn right");
+            Console.WriteLine($"The vehicle leans to turn {direction}");
         }
         public override void Stop()
         {

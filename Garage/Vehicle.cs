@@ -11,9 +11,9 @@ namespace Garage
         {
             Console.WriteLine("Vrooom!");
         }
-        public virtual void Turn()
+        public virtual void Turn(string direction)
         {
-            Console.WriteLine("The vehicle turns right");
+            Console.WriteLine($"The vehicle turns {direction}");
         }
         public virtual void Stop()
         {
@@ -21,5 +21,4 @@ namespace Garage
             Console.WriteLine();
         }
     }
-
 }
