@@ -9,7 +9,6 @@ namespace Garage
         {
             /* INHERITANCE */
 
-            /*
             Zero fxs = new Zero()
             {
                 MainColor = "Red"
@@ -45,30 +44,29 @@ namespace Garage
             fifteenHundred.Drive();
             fifteenHundred.Turn("right");
             fifteenHundred.Stop();
-            */
 
             /***********************************************/
 
             /* INTERFACE */
 
-            Zero fxs = new Zero()
+            Zero sr = new Zero()
             {
                 CurrentChargePercentage = "67%"
             };
-            Zero fx = new Zero()
+            Zero ds = new Zero()
             {
                 CurrentChargePercentage = "42%"
             };
-            Tesla modelS = new Tesla()
+            Tesla modelX = new Tesla()
             {
                 CurrentChargePercentage = "86%"
             };
 
             List<IElectricVehicle> electricVehicles = new List<IElectricVehicle>()
             {
-                fx,
-                fxs,
-                modelS
+                sr,
+                ds,
+                modelX
             };
 
             Console.WriteLine("Electric Vehicles");
